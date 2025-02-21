@@ -40,7 +40,7 @@ R \
 |── R_PANNTHR  \
 |── R_Navin  \
 |── R_All_Breast_Tumors  \
-|── R_PBMC  \
+|── R_PBMC
 
 After the folders are created, the following files need to be downloaded:
 
