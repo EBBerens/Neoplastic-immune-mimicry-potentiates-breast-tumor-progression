@@ -3,43 +3,44 @@
 Running the immune mimicry single-cell RNA-sequencing R analysis as described will require the folder structure shown below. The folder structure depicted for the R_Visvader breast tumor dataset mirrors organization for the R_Swarbrick and R_PANNTHR datasets, whereas the R_Navin, R_All_Breast_Tumors, and R_PMBC do not use every folder as they are peripheral to the main analysis. Input data were downloaded from the referenced repository and organized into their corresponding input folder; note that here breast tumors are organized by disease subtype and reduction mammoplasties go into the NORM folder.  
 
 R \
-  R_Visvader  \
-	  	Visvader_Doublet_Tables  \
-	  	Visvader_Expression_Matrices  \
-		    	Visvader_Expression_Matrices_Input  \
-		    	Visvader_Expression_Matrices_Output  \
-		  Visvader_fgsea  \
-		    	Visvader_fgsea_MSigDB  \
-		    	Visvader_fgsea_Output  \
-		  Visvader_Gene_Lists  \
-		  Visvader_inferCNV  \
-			    Visvader_inferCNV_Input  \
-			      	Visvader_inferCNV_Input_Count_Matrix  \
-			      	Visvader_inferCNV_Input_RDS  \
-			    Visvader_inferCNV_Output  \
-		  Visvader_Input  \
-		    	ER  \
-		    	HER2  \
-		    	NORM  \
-		    	PR  \
-		    	TNBC  \
-		  Visvader_Output  \
-		  Visvader_RDS  \
-		    	RDS_Annotated  \
-		    	RDS_inferCNV  \
-		    	RDS_Leukocytes  \
-			    RDS_Merged  \
-		    	RDS_panCK  \
-			    RDS_Total  \
-			    RDS_Total_Singlets  \
-		  Visvader_Scripts \
+_R_Visvader  \
+__Visvader_Doublet_Tables  \
+__Visvader_Expression_Matrices  \
+____Visvader_Expression_Matrices_Input  \
+____Visvader_Expression_Matrices_Output  \
+__Visvader_fgsea  \
+____Visvader_fgsea_MSigDB  \
+____Visvader_fgsea_Output  \
+__Visvader_Gene_Lists  \
+__Visvader_inferCNV  \
+____Visvader_inferCNV_Input  \
+______Visvader_inferCNV_Input_Count_Matrix  \
+______Visvader_inferCNV_Input_RDS  \
+____Visvader_inferCNV_Output  \
+__Visvader_Input  \
+____ER  \
+____HER2  \
+____NORM  \
+____PR  \
+____TNBC  \
+__Visvader_Output  \
+__Visvader_RDS  \
+____RDS_Annotated  \
+____RDS_inferCNV  \
+____RDS_Leukocytes  \
+____RDS_Merged  \
+____RDS_panCK  \
+____RDS_Total  \
+____RDS_Total_Singlets  \
+____Visvader_Scripts \
+\
 R \
-  R_Visvader  \
-  R_Swarbrick  \
-  R_PANNTHR  \ 
-  R_Navin  \
-  R_All_Breast_Tumors  \
-  R_PBMC  \
+_R_Visvader  \
+_R_Swarbrick  \
+_R_PANNTHR  \ 
+_R_Navin  \
+_R_All_Breast_Tumors  \
+_R_PBMC  \
 
 After the folders are created, the following files need to be downloaded:
 
