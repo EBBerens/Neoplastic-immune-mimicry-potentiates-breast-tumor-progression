@@ -1,5 +1,7 @@
 # **Immune Mimicry scRNA-seq R Analysis Setup** #
 
+### **Folder Structure** ###
+
 Running the immune mimicry single-cell RNA-sequencing R analysis as described will require the folder structure shown below. The folder structure depicted for the R_Visvader breast tumor dataset mirrors organization for the R_Swarbrick and R_PANNTHR datasets, whereas the R_Navin, R_All_Breast_Tumors, and R_PMBC do not use every folder as they are peripheral to the main analysis. Input data were downloaded from the referenced repository and organized into their corresponding input folder; note that here breast tumors are organized by disease subtype and reduction mammoplasties go into the NORM folder.  
 
 R \
@@ -68,6 +70,7 @@ R \
 
 If reproducing the entire analysis, I recommend executing the R scripts in the order shown below. Keys points are that: (1) the reduction mammoplasty reference must be generated for inferCNV to run properly on breast tumor datasets and (2) analyses with all breast tumors cannot proceed until the main immune mimicry analysis has been completed. 
 
+<div style="margin-left: 40px;">
 01_Pal_et_al_Breast_Tumor_Preprocessing.R  \
 02_Pal_et_al_Breast_Tumor_Epithelial_Cell_Extraction.R  \
 01_Wu_et_al_Breast_Tumor_Preprocessing.R  \
@@ -91,3 +94,5 @@ If reproducing the entire analysis, I recommend executing the R scripts in the o
 05_Additional_Analyses_All_Breast_Tumors.R  \
 04_Kumar_et_al_Pal_et_al_Reduction_Mammoplasty_Main_Immune_Mimicry_Analysis.R  \
 01_Terekhova_et_al_PMBC_Mammary_Keratin_Quantification.R
+</div>
+
