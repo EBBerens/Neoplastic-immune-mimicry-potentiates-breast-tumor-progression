@@ -2,9 +2,9 @@
 
 Running the immune mimicry single-cell RNA-sequencing R analysis as described will require the folder structure shown below. The folder structure depicted for the R_Visvader breast tumor dataset mirrors organization for the R_Swarbrick and R_PANNTHR datasets, whereas the R_Navin, R_All_Breast_Tumors, and R_PMBC do not use every folder as they are peripheral to the main analysis. Input data were downloaded from the referenced repository and organized into their corresponding input folder; note that here breast tumors are organized by disease subtype and reduction mammoplasties go into the NORM folder.  
 
-├── R
-│   ├── R_Visvader
-│   └── Visvader_Doublet_Tables
+├── R \
+│   ├── R_Visvader \
+│   └── Visvader_Doublet_Tables \
 │   ├── Visvader_Expression_Matrices
 │   │   ├── Visvader_Expression_Matrices_Input
 │   │   ├── Visvader_Expression_Matrices_Output
