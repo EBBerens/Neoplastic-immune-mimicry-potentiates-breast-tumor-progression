@@ -4,8 +4,8 @@ Running the immune mimicry single-cell RNA-sequencing R analysis as described wi
 
 
 R
-_R_Visvader
-__Visvader_Doublet_Tables
+  R_Visvader
+    Visvader_Doublet_Tables
 Visvader_Expression_Matrices
 Visvader_Expression_Matrices_Input
 Visvader_Expression_Matrices_Output
