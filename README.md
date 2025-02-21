@@ -46,23 +46,23 @@ After the folders are created, the following files need to be downloaded:
 
 **1.**	Download the following file from the Broad Institute and place into the “[Dataset]_inferCNV_Input” folder: hg38_gencode_v27
 
-: This is a gene/chromosome positions file for inferCNV.
+|    This is a gene/chromosome positions file for inferCNV.
 
-: https://data.broadinstitute.org/Trinity/CTAT/cnv/
+|    https://data.broadinstitute.org/Trinity/CTAT/cnv/
 
 **2.**	Download the following file from MSigDB courtesy of the Broad Institute and place into the “[Dataset]_ fgsea_MSigDB” folder: c5.go.bp.v2022.1.Hs.symbols.gmt
 
-: These are Gene Ontology Biological Processes used for pathway analysis.
+|    These are Gene Ontology Biological Processes used for pathway analysis.
 
-: https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2022.1.Hs/
+|    https://data.broadinstitute.org/gsea-msigdb/msigdb/release/2022.1.Hs/
 
 **3.**	Download the following file from Uniprot place into the “[Dataset]_Gene_List” folder: cdlist.txt
 
-: This file contains gene names for known CD markers.
+|    This file contains gene names for known CD markers.
 
-: Note: cdlist.txt was converted to Uniprot_CD_Gene_List_2024.csv
+|    Note: cdlist.txt was converted to Uniprot_CD_Gene_List_2024.csv
 
-: https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/cdlist.txt
+|    https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/docs/cdlist.txt
 
 If reproducing the analysis, I recommend executing the R scripts in the order shown below. Keys points are that: (1) the reduction mammoplasty reference must be generated for inferCNV to run properly on breast tumor datasets and (2) analyses with all breast tumors cannot proceed until the main immune mimicry analysis has been completed. 
 
