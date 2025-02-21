@@ -70,7 +70,7 @@ R \
 
 If reproducing the entire analysis, I recommend executing the R scripts in the order shown below. Keys points are that: (1) the reduction mammoplasty reference must be generated for inferCNV to run properly on breast tumor datasets and (2) analyses with all breast tumors cannot proceed until the main immune mimicry analysis has been completed. 
 
-<div style="margin-left: 40px;">
+<pre>
 01_Pal_et_al_Breast_Tumor_Preprocessing.R  \
 02_Pal_et_al_Breast_Tumor_Epithelial_Cell_Extraction.R  \
 01_Wu_et_al_Breast_Tumor_Preprocessing.R  \
@@ -94,5 +94,5 @@ If reproducing the entire analysis, I recommend executing the R scripts in the o
 05_Additional_Analyses_All_Breast_Tumors.R  \
 04_Kumar_et_al_Pal_et_al_Reduction_Mammoplasty_Main_Immune_Mimicry_Analysis.R  \
 01_Terekhova_et_al_PMBC_Mammary_Keratin_Quantification.R
-</div>
+</pre>
 
