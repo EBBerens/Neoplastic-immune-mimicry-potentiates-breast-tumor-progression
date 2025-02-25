@@ -2,7 +2,7 @@
 
 ### **Folder Structure** ###
 
-Running the immune mimicry single-cell RNA-sequencing R analysis as described will require the folder structure shown below. The folder structure depicted for the R_Visvader breast tumor dataset mirrors organization for the R_Swarbrick and R_PANNTHR datasets, whereas the R_Navin, R_All_Breast_Tumors, and R_PMBC do not use every folder as they are peripheral to the main analysis. Input data were downloaded from the referenced repository and organized into their corresponding input folder; note that here breast tumors are organized by disease subtype and reduction mammoplasties go into the NORM folder.  
+Running the immune mimicry single-cell RNA-sequencing R analysis as described will require the folder structure shown below. The folder structure depicted for the R_Visvader breast tumor dataset mirrors organization for the R_Swarbrick and R_PANNTHR datasets, whereas the R_Navin, R_All_Breast_Tumors, and R_PMBC do not use every folder as they are peripheral to the main analysis. Input data were downloaded from the referenced repository and organized into their corresponding input folder; note that here breast tumors are organized by disease subtype and reduction mammoplasties go into the NORM folder. 
 
 R \
 ... R_Visvader  \
@@ -68,7 +68,7 @@ R \
 
 ### **Recommended R Script Order** ###
 
-If reproducing the entire analysis, I recommend executing the R scripts in the order shown below. Keys points are that: (1) the reduction mammoplasty reference must be generated for inferCNV to run properly on breast tumor datasets and (2) analyses with all breast tumors cannot proceed until the main immune mimicry analysis has been completed. 
+If reproducing the entire analysis, I recommend executing the R scripts in the order shown below. Keys points are that: (1) the reduction mammoplasty reference must be generated for inferCNV to run properly on breast tumor datasets and (2) scripts involving all breast tumors cannot proceed until the main immune mimicry analysis has been completed. Each dataset is represented by a folder on this repository containing its R scripts.
 
 ##### **Preprocess Breast Tumors and Extract Epithelial Cells** #####
 <pre>
