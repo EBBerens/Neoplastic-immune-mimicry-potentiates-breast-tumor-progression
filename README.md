@@ -1,4 +1,4 @@
-# **Immune Mimicry Single-cell RNA-sequencing R Analysis Setup** #
+# **Immune Mimicry Single-cell RNA-seq R Analysis Setup** #
 
 ### **scRNA-seq Datasets** ###
 Public breast tumor and reduction mammoplasty datasets were downloaded from NCBI's Gene Expression Omnibus: 
