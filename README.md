@@ -1,8 +1,26 @@
-# **Immune Mimicry scRNA-seq R Analysis Setup** #
+![image](https://github.com/user-attachments/assets/c0c81e18-5e1f-4b05-b600-41de561ac182)# **Immune Mimicry Single-cell RNA-sequencing R Analysis Setup** #
+
+### **scRNA-seq Datasets** ###
+Public breast tumor and reduction mammoplasty datasets were downloaded from NCBI's Gene Expression Omnibus: 
+<pre>
+- R_Visvader (Pal et al.): GSE161529
+- R_Swarbrick (Wu et al.): GSE176078
+- R_Navin (Kumar et al.): GSE235326
+</pre>
+
+Breast tumor data from OHSU's PANNTHR trial are being uploaded to a public repository:
+<pre>
+- R_PANNTHR: Data deposition in progress
+</pre>
+
+The peripheral blood mononuclear cell dataset is located at Synapse.org: 
+<pre>
+- R_PMBC (Terekhova et al.): syn49637038
+</pre>
 
 ### **Folder Structure** ###
 
-Running the immune mimicry single-cell RNA-sequencing R analysis as described will require the folder structure shown below. The folder structure depicted for the R_Visvader breast tumor dataset mirrors organization for the R_Swarbrick and R_PANNTHR datasets, whereas the R_Navin, R_All_Breast_Tumors, and R_PMBC do not use every folder as they are peripheral to the main analysis. Input data were downloaded from the referenced repository and organized into their corresponding input folder; note that here breast tumors are organized by disease subtype and reduction mammoplasties go into the NORM folder. 
+Running the immune mimicry single-cell RNA-sequencing R analysis as described will require the folders shown below. The folder structure depicted for the R_Visvader (Pal et al.) breast tumor dataset mirrors organization for the R_Swarbrick (Wu et al.) and R_PANNTHR datasets, whereas the R_Navin (Kumar et al.), R_All_Breast_Tumors, and R_PMBC (Terekhova et al.) analyses do not use every folder as they are peripheral to the main analysis. Input data were downloaded from the referenced repository and organized into their corresponding input folder. Note that here breast tumors are arranged by disease subtype and reduction mammoplasties go into the NORM folder. 
 
 R \
 ... R_Visvader  \
