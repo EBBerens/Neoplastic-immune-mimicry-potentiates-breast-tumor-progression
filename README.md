@@ -2,7 +2,6 @@
 
 ### **scRNA-seq Datasets** ###
 Public breast tumor and reduction mammoplasty datasets were downloaded from NCBI's Gene Expression Omnibus: 
-
 <pre>
 - R_Visvader (Pal et al.): GSE161529
 - R_Swarbrick (Wu et al.): GSE176078
@@ -10,13 +9,11 @@ Public breast tumor and reduction mammoplasty datasets were downloaded from NCBI
 </pre>
 
 Breast tumor data from OHSU's PANNTHR trial are being uploaded to a public repository:
-
 <pre>
 - R_PANNTHR: Data deposition in progress
 </pre>
 
 The peripheral blood mononuclear cell dataset is located at Synapse.org: 
-
 <pre>
 - R_PMBC (Terekhova et al.): syn49637038
 </pre>
