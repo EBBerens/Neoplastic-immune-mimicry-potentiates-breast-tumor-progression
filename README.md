@@ -114,7 +114,7 @@ If reproducing the entire analysis, I recommend executing the R scripts in the o
 03_PANNTHR_Breast_Tumor_Neoplastic_Cell_Extraction.R
 </pre>
 
-##### **Conduct Main Immune Mimicry Analysis on Breat Tumors** #####
+##### **Conduct Main Immune Mimicry Analysis on Breast Tumors** #####
 <pre>
 04_Pal_et_al_Breast_Tumor_Main_Immune_Mimicry_Analysis.R
 04_Wu_et_al_Breast_Tumor_Main_Immune_Mimicry_Analysis.R
@@ -122,12 +122,12 @@ If reproducing the entire analysis, I recommend executing the R scripts in the o
 05_Additional_Analyses_All_Breast_Tumors.R
 </pre>
 
-##### **Evaluate Immune Mimicry in Reduction Mammoplastiess** #####
+##### **Evaluate Immune Mimicry in Reduction Mammoplasties** #####
 <pre>
 04_Kumar_et_al_Pal_et_al_Reduction_Mammoplasty_Main_Immune_Mimicry_Analysis.R
 </pre>
 
-##### **Assess Mammary Keratins in Peripheral Blood Cells** #####
+##### **Assess Mammary Keratins in Peripheral Blood Mononuclear Cells** #####
 <pre>
 01_Terekhova_et_al_PMBC_Mammary_Keratin_Quantification.R
 </pre>
